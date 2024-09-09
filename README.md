@@ -2,12 +2,16 @@
 
 ## Installation 
 
-Installation de la dernière version stable avec les dépendances courantes pour un site web
+Installation de la dernière version LTS avec les dépendances courantes pour un site web
 
-    symfony new SecondCrudG2 --webapp
+    symfony new SecondCrudG2 --version=lts --webapp
     cd SecondCrudG2
 
 ### Mise à jour de composer
+
+    composer self-update
+
+### Mise à jour des bibliothèques composer
 
     composer update
 

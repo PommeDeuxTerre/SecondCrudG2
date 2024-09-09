@@ -12,7 +12,9 @@
         {% endblock %}
     </head>
     <body>
-        {% block navbar %}{% include "./menu.html.twig" %}{% endblock %}
-        {% block body %}{% endblock %}
+        <div class="container">
+            {% block navbar %}{% include "./menu.html.twig" %}{% endblock %}
+            {% block body %}{% endblock %}
+        </div>
     </body>
 </html>
